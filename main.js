@@ -52,5 +52,16 @@ function finalizarjogo() {
 
 function reiniciarJogo() {
     contagemPalpites = 1;
-    const paragrafoReiniciar = document.querySelectorAll('.paragrafosResultado p');
+    const paragrafosReiniciar = document.querySelectorAll('.paragrafosResultado p');
+    for (const paragrafoReiniciar of paragrafoReiniciar) {
+        paragrafoReiniciar.textContent = "";
+}
+
+botaoReiniciar.parentNode.removeChild(botaoReiniciar);
+campoPalpite.disable = false;
+envioPalpite = false;
+campoPalpite.value = "";
+campoPalpite.focus();
+ultimoResultado.style.backgroudColor = 'white';
+numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 }
