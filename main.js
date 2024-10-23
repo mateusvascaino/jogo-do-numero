@@ -29,7 +29,7 @@ let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
         ultimoResultado.style.backgroudColor = "red";
         if (palpiteUsuario < numeroAleatorio) {
             baixoOuAlto.textContent = "O ultimo palpite foi muito baixo";
-    } else if (palpiteUsuario > numeroAleatorio() {
+    } else if (palpiteUsuario > numeroAleatorio) {
       baixoOuAlto.textContent =  "O ultimo palpite foi muito alto";
     }
 } 
