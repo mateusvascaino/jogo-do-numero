@@ -82,7 +82,7 @@ html {
     margin: 20px auto;
     padding: 10px 20px;
     background-color: #007bff;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     font-size: 1.2em;
@@ -95,7 +95,7 @@ html {
   }
 
   .ultimoResultado {
-    color: white;
+    color: rgb(255, 0, 0);
     padding: 3px;
   }
 
