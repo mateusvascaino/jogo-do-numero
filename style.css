@@ -1,6 +1,6 @@
 html {
     font-family: sans-serif;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #a7c7ff, #feb47b);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -93,7 +93,7 @@ html {
   .botaoReiniciar:hover {
     background-color: #0056b3;
   }
-  
+
   .ultimoResultado {
     color: white;
     padding: 3px;
