@@ -46,7 +46,7 @@ function finalizarjogo() {
     envioPalpite.disable = true;
     botaoReiniciar = document.createElement('button');
     document.body.appendChild(botaoReiniciar);
-    botaoReiniciar.textContent = "Reiniciar Jogar";
+    botaoReiniciar.textContent = "Reiniciar Jogo";
     botaoReiniciar.classList.add('botaoReiniciar');
     document.body.appendChild(botaoReiniciar);
     botaoReiniciar.addEventListener('click', reiniciarJogo);
