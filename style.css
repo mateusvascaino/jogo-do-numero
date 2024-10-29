@@ -70,7 +70,7 @@ html {
   }
 
   .ultimoResultado.errado {
-    background-color: #dc3545;
+    background-color: #ffffff;
   }
 
   .ultimoResultado.correto {
@@ -95,7 +95,7 @@ html {
   }
 
   .ultimoResultado {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 3px;
   }
 
